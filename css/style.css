@@ -1,0 +1,35 @@
+.wrapper {
+  font-family: "FoundationTitlesHand";
+  background: black;
+}
+
+.main {
+  padding-top: 50px;
+  height: 100%;
+}
+
+.main-text {
+  text-align: justify;
+  font-size: 1rem;
+  background: url(../img/Apple-TV-Foundation4.jpg) 0 0/cover no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  animation: bg-anim 300s linear infinite alternate;
+}
+
+@keyframes bg-anim {
+  0% {
+    background-size: 100%;
+  }
+  100% {
+    background-size: 500%;
+  }
+}
+.text {
+  flex: 0 1 30%;
+}/*# sourceMappingURL=style.css.map */
